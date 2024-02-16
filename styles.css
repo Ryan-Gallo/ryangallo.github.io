@@ -4,6 +4,25 @@
     /* Add additional src lines for different font formats (e.g., woff, woff2) if available */
   }
   
+  body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0,163,224); /* Set your desired background color */
+}
+
+.center-box {
+    width: 300px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    background-color: rgb(17,17,17); /* Set your desired background color */
+    border: 2px solid #333; /* Set your desired border color and width */
+    border-radius: 8px; /* Set your desired border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a subtle effect */
+}
+
+
   #body {
     font-family: 'SourceSans3', sans-serif;
   }
