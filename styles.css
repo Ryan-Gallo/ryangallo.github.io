@@ -25,6 +25,19 @@
     padding: 100px 40px 40px 80px;
 }
 
+.center-box:before {
+  content: "\a0";
+  position: absolute; /* Position the pseudo-element relative to the box */
+  top: 10%;
+  left: 5%;
+  display: block;
+  width: 85%;
+  height: 80%;
+  box-sizing: border-box; /* Include padding and border in total width/height */
+  border-top: 6px dashed rgb(0, 163, 224);
+  border-left: 6px dashed rgb(0, 163, 224);
+}
+
 .overlay-image{
   position: absolute;
     top: -80px; 
