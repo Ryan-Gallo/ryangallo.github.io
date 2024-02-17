@@ -25,7 +25,7 @@
     padding: 100px 40px 40px 80px;
 }
 
-.center-box:before {
+.center-box::before {
   content: "\a0";
   position: absolute; /* Position the pseudo-element relative to the box */
   top: 10%;
