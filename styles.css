@@ -119,6 +119,7 @@
     padding: 20px 30px; 
     cursor: pointer; 
     display: inline-block;
+    z-index: 1;
   }
 
   .customLink {
