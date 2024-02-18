@@ -89,6 +89,15 @@
     overflow: visible;
 }
 
+.customIcon2 {
+  width: 23px;
+  height: 22px; 
+  overflow: visible;
+  margin-top: -15px;
+  margin-left: -15px; 
+  margin-right: auto;
+}
+
   .iconColor {
     color: #eee;
     filter: invert(1)
@@ -127,4 +136,48 @@
     align-items: center; 
     text-decoration: none; 
     margin-top: 25px;
+}
+
+.button-container {
+  position: absolute;
+  top: 60%; /* Adjust as needed for vertical positioning */
+  left: 65%; /* Adjust as needed for horizontal positioning */
+  transform: translate(-50%, -50%); /* Center the container */
+  width: 225px; /* Set your desired width */
+  height: 255px; /* Set your desired height */
+  display: flex;
+  flex-direction: column;
+}
+
+.button1 {
+  position: absolute;
+  top: 0;
+  left: -10%;
+}
+
+.button2 {
+  position: absolute;
+  top: 0;
+  right: -10%;
+}
+
+.button3 {
+  position: absolute;
+  bottom: 0%;
+  left: -10%;
+}
+
+.button4 {
+  position: absolute;
+  bottom: 0%;
+  right: -10%;
+}
+
+.buttonText {
+  color: #cccccc;
+  font-size: 16px;
+  position: absolute;
+  left: 100%; 
+  top: 65%; 
+  transform: translate(10px, -50%); 
 }
