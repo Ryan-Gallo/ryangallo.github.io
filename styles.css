@@ -139,6 +139,13 @@
     z-index: 1;
   }
 
+  .anchor1{
+    color: #111111;
+   position: relative;
+    bottom: 130%;
+    left: 65%; 
+  }
+
   .customLink {
     display: inline-flex; 
     align-items: center; 
